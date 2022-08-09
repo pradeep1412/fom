@@ -1,0 +1,11 @@
+.Home_section{
+  width: 100vw !important;
+}
+.Home_section_contain{
+  margin: 10px 20px;
+}
+.home_section_img{
+  margin: 10px 10px;
+  height:600px;
+  width: 47vw;
+}

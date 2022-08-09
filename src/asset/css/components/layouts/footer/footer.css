@@ -1,0 +1,51 @@
+.footer_container{
+  position: relative;  width: 100%;
+  height: 10rem;
+}
+.footer_container_main{
+  margin: 0rem 5vw;
+  width: 90vw;
+  height: 100%;
+  display: grid;
+}
+.footer_container_main_contact{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.footer_container_main_text{
+  font-family: 'Rubik Moonrocks';
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.footer_container_main_contact_lists{
+  display: grid;
+  grid-template-columns: repeat(4,10%);
+}
+.footer_container_main_contact_list{
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  opacity: 0.8;
+}
+@media (min-width:350px) and (max-width:800px) {
+  .footer_container_main_contact_lists{
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+@media (max-width:350px) {
+  .footer_container_main_contact_lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer_container_main_contact_list{
+    margin: 2px 0px;
+  }
+}
+.footer_container_main_contact_list:hover{
+  color: black;
+  opacity: 0.6;
+}
